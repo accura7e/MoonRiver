@@ -2,6 +2,7 @@
 	height: 100vh;
 	background: rgb(255,255,255);
 background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 60%, rgba(39,39,39,1) 60%);
+padding-bottom: 80px;
 }
 .container {
 }
@@ -9,6 +10,7 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 6
 	display: flex;
 	padding-top: 60px;
 	justify-content: space-between;
+	margin-bottom: 314px;
 }
 
 .header__items{
@@ -37,7 +39,7 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 6
 }
 .header__btn {
 	width: 30px;
-	height: 16px;
+	height: 30px;
 
 	
 	span{
