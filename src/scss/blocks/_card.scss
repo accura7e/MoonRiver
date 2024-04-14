@@ -1,0 +1,39 @@
+.card {
+    background-color: #EDEDED;
+    width: 400px;
+    height: 400px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+
+}
+.card__img {
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 65px;
+}
+.card__title {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #272727;
+}
+.card__desc {
+    padding-left: 30px;
+    display: grid;
+    row-gap: 9px;
+}
+
+.card__text{
+    font-weight: 300;
+    font-size: 18px;
+    color: #757575;
+}
+.card__price {
+;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    color: #e2b67a;
+}
