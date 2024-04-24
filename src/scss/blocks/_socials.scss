@@ -12,6 +12,7 @@
         letter-spacing: 0.03em;
         color: #fff;
     }
+    max-width: 518px;
     margin-bottom: 80px;
 }
 .swiper{
@@ -19,6 +20,19 @@
 
 }
 .socials__slider {
+    .swiper-slide{
+        width: fit-content !important;
+    }
 }
 .socials__row {
+}
+
+.socials__slide{
+    height: 385px;
+    overflow: hidden;
+    width: fit-content;
+    img{
+        object-fit: cover;
+        height: 100%;
+    }
 }

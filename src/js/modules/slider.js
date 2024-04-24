@@ -15,7 +15,8 @@ function slider(){
         pagination: {
           el: '.swiper-pagination',
         },
-        slidesPerView: 4,
+        spaceBetween: 25,
+        slidesPerView: 'auto',
         
         // Navigation arrows
         navigation: {
