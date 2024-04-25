@@ -1,33 +1,31 @@
-import Swiper from 'swiper';
-// import Swiper styles
+import Swiper from 'swiper/bundle';
+
+
 import 'swiper/css';
-
-
 function slider(){
     // import Swiper JS
 
+    
     const swiper = new Swiper('.swiper', {
         // Optional parameters
 
-        loop: true,
-      
+        loop: false,
+        navigation: {
+          nextEl: '.socials__slider-right-btn',
+          prevEl: '.socials__slider-left-btn',
+        },
         // If we need pagination
         pagination: {
-          el: '.swiper-pagination',
+          el: '.socials__slider-pagination',
         },
         spaceBetween: 25,
         slidesPerView: 'auto',
         
         // Navigation arrows
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
+
         
         // And if we need scrollbar
-        scrollbar: {
-          el: '.swiper-scrollbar',
-        },
+
       });
 }
 
